@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{AB1CB100-6A5C-486B-8017-24FE6AB8896A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication1/Program.cs">
+    <Files>
+      <File FileName="WebApplication1/Program.cs" Line="21" Column="69" />
+      <File FileName="WebApplication1/Startup.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/Controllers/HelloController.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/appsettings.json" Line="1" Column="1" />
+      <File FileName="WebApplication1/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="WebApplication1/wwwroot/Index.html" Line="19" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
