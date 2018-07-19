@@ -37,7 +37,7 @@ WebHost.CreateDefaultBuilder(args)
 为
 
 ```
-WebHost.CreateDefaultBuilder(args).UseUrls("http://<你的ip>:<58546>")
+WebHost.CreateDefaultBuilder(args).UseUrls("http://<你的ip>:58546")
                 .UseStartup<Startup>()
                 .Build();
 ```
