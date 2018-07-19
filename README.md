@@ -4,49 +4,11 @@
 
 ## 食用说明
 
--1.修改ip
-
-wwwroot/index.html中更改ip
-
-```javascript
- axios.get('http://10.0.2.15:58546/hello')
-```
-
-更改为
-
-```
- axios.get('http://<你的ip>:58546/hello')
-```
-
-_____
-
-vs2017打开项目，点击"调试->webapplication1属性"，找到最下方"应用URL"，更改为"http://<你的ip>:58546/"
-
-_____
-
-打开Program.cs
-
-更改
-
-```
-WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .Build();
-```
-
-为
-
-```
-WebHost.CreateDefaultBuilder(args).UseUrls("http://<你的ip>:58546")
-                .UseStartup<Startup>()
-                .Build();
-```
-
 
 
 0.run
 
-1.打开http://<你的ip>:58546/index.html
+1.打开http://localhost:5001/index.html
 
 2.点击按钮
 
@@ -56,7 +18,7 @@ WebHost.CreateDefaultBuilder(args).UseUrls("http://<你的ip>:58546")
 
 **注：这个不是服务器渲染！只是第一次访问的时候客户端程序需要由服务器端发送**
 
-请求http://<你的ip>:58546/index.html
+请求http://localhost:5001/index.html
 
 服务器发送静态网页，静态网页于后端程序位于目录wwwroot下
 
