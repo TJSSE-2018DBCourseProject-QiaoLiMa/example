@@ -22,6 +22,28 @@ _____
 
 vs2017打开项目，点击"调试->webapplication1属性"，找到最下方"应用URL"，更改为"http://<你的ip>:58546/"
 
+_____
+
+打开Program.cs
+
+更改
+
+```
+WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .Build();
+```
+
+为
+
+```
+WebHost.CreateDefaultBuilder(args).UseUrls("http://<你的ip>:<58546>")
+                .UseStartup<Startup>()
+                .Build();
+```
+
+
+
 0.run
 
 1.打开http://10.0.2.15:58546/index.html
