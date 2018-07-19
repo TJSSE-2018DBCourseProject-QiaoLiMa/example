@@ -46,7 +46,7 @@ WebHost.CreateDefaultBuilder(args).UseUrls("http://<你的ip>:<58546>")
 
 0.run
 
-1.打开http://10.0.2.15:58546/index.html
+1.打开http://<你的ip>:58546/index.html
 
 2.点击按钮
 
@@ -56,7 +56,7 @@ WebHost.CreateDefaultBuilder(args).UseUrls("http://<你的ip>:<58546>")
 
 **注：这个不是服务器渲染！只是第一次访问的时候客户端程序需要由服务器端发送**
 
-请求http://10.0.2.15:58546/index.html
+请求http://<你的ip>:58546/index.html
 
 服务器发送静态网页，静态网页于后端程序位于目录wwwroot下
 
