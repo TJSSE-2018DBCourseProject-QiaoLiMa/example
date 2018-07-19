@@ -4,7 +4,25 @@
 
 ## 食用说明
 
-0.解压后在vs直接run
+-1.修改ip
+
+wwwroot/index.html中更改ip
+
+```javascript
+ axios.get('http://10.0.2.15:58546/hello')
+```
+
+更改为
+
+```
+ axios.get('http://<你的ip>:58546/hello')
+```
+
+_____
+
+vs2017打开项目，点击"调试->webapplication1属性"，找到最下方"应用URL"，更改为"http://<你的ip>:58546/"
+
+0.run
 
 1.打开http://10.0.2.15:58546/index.html
 
